@@ -37,4 +37,17 @@ The app should now be running and viewable from your Windows host box at http://
 
 `ctrl + c` should exit the meteor app and `exit` will drop you back at the Windows prompt.
 
-#### More to come, at 11...
+Important Notes
+---------------
+- git operations *MUST be performed within the VM*
+- before making any commits, be sure to set your git credentials:
+```
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+```
+
+
+---
+That's it!
+
+More to come, at 11...
