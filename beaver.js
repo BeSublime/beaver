@@ -16,8 +16,10 @@ if (Meteor.isClient) {
   });
 }
 
+Test = new Mongo.Collection("test");
+
 if (Meteor.isServer) {
   Meteor.startup(function () {
-    // code to run on server at startup
+    Test.insert({name: "test value"});
   });
 }
